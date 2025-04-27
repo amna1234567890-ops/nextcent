@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexcent - Bootstrap 5 Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .btn-success {
+      background-color: #28a745;
+      border: none;
+    }
+    .btn-success:hover {
+      background-color: #218838;
+    }
+    .logo-icons img {
+      max-width: 10  0px;
+      margin: 0 15px;
+    }
+
+    /* ----------------GRaddient--------------- */
+    .apple-gradient {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, #4CAF50, #43A047, #388E3C, #2E7D32, #1B5E20);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+
+
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="Logo.png" alt="Nexcent Logo" class="img-fluid" style="height: 20px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto gap-3">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+      </ul>
+      <button class="btn btn-success">Register Now</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="container my-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1 class="apple-gradient">Lessons and insights <br> <span class="text-success">from 8 years</span></h1>
+      <p class="mt-3">Where to grow your business as a photographer: site or social media?</p>
+      <button class="btn btn-success mt-3">Register</button>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="Illustration.png" alt="Illustration" class="img-fluid" style="max-height: 400px;">
+    </div>
+  </div>
+</section>
+
+<!-- Our Clients Section -->
+<section class="text-center my-5">
+  <h2>Our Clients</h2>
+  <p class="text-muted">We have been working with some Fortune 500+ clients</p>
+
+  <div class="d-flex justify-content-center gap-5 align-items-center flex-wrap logo-icons mt-4">
+    <img src="Logo-1.png" alt="Client 1" height="70px">
+    <img src="Logo-2.png" alt="Client 2" height="70px" >
+    <img src="Logo-3.png" alt="Client 3"  height="70px">
+    <img src="Logo-4.png" alt="Client 4"  height="70px">
+    <img src="Logo-5.png" alt="Client 5" height="70px" >
+    <img src="Logo-6.png" alt="Client 6" height="70px" >
+  </div>
+</section>
+<div class="container py-5">
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="p-4 border rounded">
+          <img src="https://img.icons8.com/ios/50/000000/conference.png" alt="Membership" class="mb-3">
+          <h4>Membership<br>Organisations</h4>
+          <p>Our membership management software provides full automation of membership renewals and payments.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="p-4 border rounded">
+          <img src="https://img.icons8.com/ios/50/000000/city-buildings.png" alt="Associations" class="mb-3">
+          <h4>National<br>Associations</h4>
+          <p>Our membership management software provides full automation of membership renewals and payments.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="p-4 border rounded">
+          <img src="https://img.icons8.com/ios/50/000000/bicycle.png" alt="Clubs" class="mb-3">
+          <h4>Clubs And<br>Groups</h4>
+          <p>Our membership management software provides full automation of membership renewals and payments.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Middle Section -->
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4">
+        <img src="rafiki.png" class="img-fluid" alt="Illustration">
+      </div>
+      <div class="col-md-6">
+        <h2>The unseen of spending three<br>years at Pixelgrade</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis, deleniti laboriosam magnam similique, distinctio saepe recusandae fugit tempore a, sit ad autem excepturi sequi neque deserunt asperiores aliquam minima.</p>
+        <button class="btn btn-success">Learn More</button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Statistics Section -->
+  <div class="container text-center py-5">
+    <h2>Helping a local <br><span class="text-success">business reinvent itself</span></h2>
+    <p>We reached here with our hard work and dedication.</p>
+    <div class="row text-success mt-5">
+      <div class="col-md-3 mb-4">
+        <div>
+          <i class="bi bi-people-fill"></i>
+          <h4>2,245</h4>
+          <p class="text-dark">Members</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div>
+          <i class="bi bi-calendar-event"></i>
+          <h4>828,867</h4>
+          <p class="text-dark">Event Bookings</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div>
+          <i class="bi bi-tree-fill"></i>
+          <h4>46,328</h4>
+          <p class="text-dark">Clubs</p>
+        </div>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div>
+          <i class="bi bi-currency-dollar"></i>
+          <h4>1,926,436</h4>
+          <p class="text-dark">Payments</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   <!-- Get a Demo Section -->
+   <div class="container text-center my-5 mt-5">
+    <h1 style="font-size: 50px;" class="apple-gradient">Pellentesque suscipit <br>fringilla libero eu.</h1>
+    <button class="btn btn-success mt-3">Get a Demo →</button>
+  </div>
+  
+ <!-- Footer Section -->
+<footer class="bg-dark text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-3 mb-4">
+          <img src="gfgf.png" alt="Nexcent Logo" style="height: 20px;">
+          <p class="mt-3 mb-2">Copyright © 2020 Landify UI Kit.<br>All rights reserved.</p>
+          <div class="d-flex gap-3 mt-3">
+            <a href="#" class="text-light fs-4"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light fs-4"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-light fs-4"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+  
+        <div class="col-md-3 mb-4">
+          <h5 class="mb-3">Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Pricing</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Testimonials</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3 mb-4">
+          <h5 class="mb-3">Support</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-light text-decoration-none">Help Center</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Terms of Service</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Legal</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+            <li><a href="#" class="text-light text-decoration-none">Status</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-3 mb-4">
+          <h5 class="mb-3">Stay up to date</h5>
+          <form class="d-flex">
+            <input type="email" class="form-control rounded-0" placeholder="Your email address">
+            <button type="submit" class="btn btn-success ms-2 rounded-0">→</button>
+          </form>
+        </div>
+  
+      </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
